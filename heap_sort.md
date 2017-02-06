@@ -2,6 +2,7 @@
 
 -need to create a max heap from unsorted array
 -and then heapify
+
 ----
 good for queues
 big O(n*logn) runtime 
