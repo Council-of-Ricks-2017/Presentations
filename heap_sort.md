@@ -1,4 +1,4 @@
-### Heap Sort
+# Heap Sort
 
 need to create a max heap from unsorted array
 and then heapify
