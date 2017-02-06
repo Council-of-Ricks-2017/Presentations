@@ -4,21 +4,21 @@
 -and then heapify
 
 ----
-good for queues
-big O(n*logn) runtime 
+-good for queues
+-big O(n*logn) runtime 
 	-best and worst case is same
 -better than quick sort because worst case quick sort is O(n^2)
 
 ---
-all parents greater than children (max heap)
+-all parents greater than children (max heap)
 
-array from top to bottom and left to right
+-array from top to bottom and left to right
 
-after create max heap - switch first and last value (creating a sorted array inside of same location)
+-after create max heap - switch first and last value (creating a sorted array inside of same location)
 
 ---
-build max heap() is O(n)
-max-heapify function is O(logn) 
+-build max heap() is O(n)
+-max-heapify function is O(logn) 
 	-every time bring value down tree you are dividing decisions by two (hence logn)
 
 -not a stable sort (does not retrieve same order each time)
@@ -30,7 +30,7 @@ max-heapify function is O(logn)
 5. continue until heap is 1 item and we have sorted list(can sort descending or ascending)
 
 MaxHeapify() extra-pseudocode
-	compare current value at top with children and if children are larger swap with larger of children
+	-compare current value at top with children and if children are larger swap with larger of children
 
 example:
 1,2,3,4,5,6,7,8,9
